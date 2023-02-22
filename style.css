@@ -60,3 +60,64 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.body__container {
+  width: 1440px;
+  max-width: 1440px;
+}
+
+.header {
+  background: linear-gradient(
+      180deg,
+      rgba(252, 11, 13, 0.2) -17.21%,
+      rgba(74, 153, 211, 0) 75.91%
+    ),
+    #ffffff;
+  opacity: 1;
+  box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.26);
+  height: 105px;
+  max-height: 105px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  min-width: 1440px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #4a99d3;
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+}
+.header__login {
+  display: flex;
+  align-items: center;
+}
+.header__text {
+  padding-left: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f001a;
+}
+.header__sell {
+  padding-left: 66px;
+  display: flex;
+  align-items: center;
+}
+.footer {
+}
