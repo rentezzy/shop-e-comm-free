@@ -255,7 +255,7 @@ select {
 
 .products {
   margin-top: 137px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 .products__box {
@@ -279,7 +279,7 @@ select {
   align-items: center;
   min-height: 265px;
 }
-.products__info{
+.products__info {
   padding-left: 20px;
 }
 .products__title {
@@ -311,14 +311,14 @@ select {
   font-size: 9px;
   line-height: 12px;
   letter-spacing: 0.08em;
-  color:#fff;
+  color: #fff;
 
   width: 40px;
   height: 16px;
 
   background-color: #f12b2c;
   border-radius: 4px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
@@ -346,4 +346,35 @@ select {
   line-height: 14px;
   opacity: 0.5;
   padding-right: 3px;
+}
+
+.viewmore {
+  display: flex;
+  justify-content: center;
+}
+.viewmore__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewmore__halfline {
+  width: 40%;
+  height: 0px;
+  border: 1px solid #E5E5E5;
+}
+.viewmore__button {
+  width: 17%;
+  height: 70.25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29.8267px;
+  line-height: 36px;
+
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 1px solid #fc0b0d;
+  border-radius: 14.4439px;
 }
