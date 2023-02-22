@@ -82,7 +82,7 @@ select {
   justify-content: center;
 }
 .container {
-  min-width: 1300px;
+  width: 1300px;
 }
 .header__row {
   display: flex;
@@ -361,7 +361,7 @@ select {
 .viewmore__halfline {
   width: 40%;
   height: 0px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
 }
 .viewmore__button {
   width: 17%;
@@ -377,4 +377,95 @@ select {
   background-color: #ffffff;
   border: 1px solid #fc0b0d;
   border-radius: 14.4439px;
+}
+.footer {
+  position: relative;
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: #eaf6ff;
+  min-height: 404px;
+}
+.footer__row {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__textinfo {
+  width: 50%;
+}
+.footer__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+.footer__description {
+  margin-top: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #504a41;
+}
+.footer__us {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+.footer__point {
+  display: flex;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 29px;
+}
+.footer__point img {
+  margin-right: 21px;
+}
+.footer__ul ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 43px;
+}
+.footer__ul li {
+  margin-bottom: 18px;
+}
+.footer__ul a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer__ul a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer__bgimg{
+  position: absolute;
+  right: 0;
+  top:-65px;
+  z-index: -9;
 }
